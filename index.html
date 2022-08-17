@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+  <div class="container-pai">
+    <div class="container-filho">
+      <img src="images/icon-star.svg" alt="Estrela">
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </p>
+      <div class="botao-pai">
+        <ul>
+          <li><button class="botao-filho">1</button></li>
+          <li><button class="botao-filho">2</button></li>
+          <li><button class="botao-filho">3</button></li>
+          <li><button class="botao-filho">4</button></li>
+          <li><button class="botao-filho">5</button></li>
+        </ul>
+      </div>
+      <div class="botao-pai-enviar">
+        <input class="botao-enviar" id="enviar" type="submit" value="SUBMIT">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-2 hidden">
+    <div class="container-filho2">
+        <div class="container-imagem">
+            <img src="images/illustration-thank-you.svg" alt="Thank You">
+        </div>
+        <p class="rating">You selected <span id="rating"></span> out of 5</p>
+        <h2>Thank You!</h2>
+        <p class="thank">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+        <div class="rate-again-pai">
+          <input class="rate-again" id="rate" type="button" value="Rate Again">
+        </div>
+    </div>
+</div>
+</body>
+<script src="main.js" defer></script>
+</html>
