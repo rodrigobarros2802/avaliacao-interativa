@@ -1,6 +1,5 @@
 # Avaliação Interativa
-
-
+Esse projeto tem por objetivo capturar a avaliação do cliente a um detrminado produto, a avaliação é feita de 1 a 5, onde 1 muito insatisfeito e 5 muito satisfeito com a aquisição do produto, serviço ou até mesmo atendimento.
 
 # Objetivo do Projeto
 
